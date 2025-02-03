@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Rivo</title>
+  <link rel="preload" href="fonts/Gilroy-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Exo-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RoadRadio.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RoadRadio-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RoadRadio-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/intense.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body page__body-privacy">
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="site-container">
+    <header class="header header__absolut">
+  <div class="container__field">
+    <div class="header__block">
+      <div class="header__logo">
+        <a href="index.html" class="header__logo-link btn">
+          <picture>
+            <source srcset="img/logo.webp" type="image/webp">
+            <img loading="lazy" src="img/logo.png" class="image" width="134" height="52" alt="Logo">
+          </picture>
+        </a>
+      </div>
+      <div class="header__block-nav">
+        <nav class="nav" title="Navigation">
+          <ul class="list-reset nav__list">
+            <li class="nav__item nav__item-min">
+              <a href="error.html" class="nav__link btn">
+                Services
+              </a>
+            </li>
+            <li class="nav__item nav__item-min">
+              <a href="error.html" class="nav__link btn">
+                Projects
+              </a>
+            </li>
+            <li class="nav__item nav__item-min">
+              <a href="error.html" class="nav__link btn nav__link-drop nav__link-drop--none">
+                Expertise
+                <img src="img/dropdown-arrow.svg" alt="Dropdown Arrow">
+              </a>
+              <ul class="list-reset dropdown__list dropdown__list-none">
+                <li class="dropdown__item">
+                  <a href="error.html" class="dropdown__link btn">Healthcare & Fitness</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="error.html" class="dropdown__link btn">Retail & Ecommerce</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="error.html" class="dropdown__link btn">Real Estate</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="error.html" class="dropdown__link btn">Custom CRM</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="error.html" class="dropdown__link btn">Education & E-Learning</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="error.html" class="dropdown__link btn">Food & Restaurant</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="error.html" class="dropdown__link btn">Retail & E-Commerce</a>
+                </li>
+                <li class="dropdown__item">
+                  <a href="error.html" class="dropdown__link btn">Logistic & Distribution</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item nav__item-min">
+              <a href="error.html" class="nav__link btn">
+                Contacts
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="btn btn-reset header__order">Make Order
+          <svg class="arrow" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L10 1M10 1V10M10 1L1.25745 9.74255" stroke="" stroke-width="1.5"/>
+          </svg>
+        </button>
+        <button class="btn-reset burger btn" aria-label="Открыть меню" aria-expanded="false" data-burger>
+          <span class="burger__line"></span>
+          <span class="burger__text">menu</span>
+        </button>
+        <div class="burger__menu">
+          <div class="burger__wrapper">
+            <div class="container">
+              <div class="burger__block">
+                <div class="burger__block-left">
+                  <ul class="list-reset burger__list">
+                    <li class="footer__item">
+                      <a href="index.html" class="btn burger__link">Home</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="error.html" class="btn burger__link">Who we are</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="error.html" class="btn burger__link burger__link-drop">Services</a>
+                      <ul class="list-reset burger__dropdown-list">
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Web Development</a>
+                        </li>
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Mobile Development</a>
+                        </li>
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Custom Software</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="footer__item">
+                      <a href="error.html" class="btn burger__link burger__link-drop">Industry Expertise</a>
+                      <ul class="list-reset burger__dropdown-list">
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Healthcare & Fitness</a>
+                        </li>
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Retail & Ecommerce</a>
+                        </li>
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Real Estate</a>
+                        </li>
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Custom CRM</a>
+                        </li>
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Education & E-Learning</a>
+                        </li>
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Food & Restaurant</a>
+                        </li>
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Retail & E-Commerce</a>
+                        </li>
+                        <li class="burger__dropdown-item">
+                          <a href="error.html" class="burger__dropdown-link btn">Logistic & Distribution</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="footer__item">
+                      <a href="error.html" class="btn burger__link">Our Stack</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="error.html" class="btn burger__link">Projects</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="error.html" class="btn burger__link">Reviews</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="error.html" class="btn burger__link">Contacts</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="error.html" class="btn burger__link">Career</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="error.html" class="btn burger__link">Blog</a>
+                    </li>
+                  </ul>
+                  <div class="footer__block-copy">
+                    <small class="footer__copy footer__bot">2020 © Rivo Agency</small>
+                    <a href="error.html" class="footer__privacy btn footer__bot">Privacy Policy & Term of Use</a>
+                  </div>
+                </div>
+                <div class="burger__block-right">
+                  <h4 class="contacts__title">Let’s make something that matters.</h4>
+                  <p class="contacts__address">Rivne, A. Melnyk str.1, 33016</p>
+                  <div class="contacts__block-phone">
+                    <a href="tel:13477057935" class="btn contacts__phone">+1 347 705 79 35</a>
+                    <a href="tel:380964247150" class="btn contacts__phone">+380 96 424 71 50</a>
+                  </div>
+                  <div class="contacts__block-socials">
+                    <a href="#" class="contacts__socials btn">
+                      <svg class="contacts__icon" width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.19264 15.9999V8.70155H7.55129L7.90441 5.85726H5.19264V4.04126C5.19264 3.21779 5.41283 2.65655 6.54986 2.65655L8 2.65585V0.111955C7.74909 0.0774178 6.88833 0 5.88691 0C3.79614 0 2.36475 1.32545 2.36475 3.75971V5.85733H0V8.70163H2.36467V16L5.19264 15.9999Z" fill=""/>
+                      </svg>
+                    </a>
+                    <a href="#" class="contacts__socials btn">
+                      <svg class="contacts__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.744 15.9942C14.7665 15.9699 13.8123 15.9699 12.8348 15.9942C12.6253 15.9942 12.5788 15.9455 12.5788 15.7264C12.5788 13.9251 12.5788 12.0994 12.5788 10.298C12.5788 9.88418 12.5555 9.47035 12.4392 9.08086C12.0901 7.81504 10.6936 7.35252 9.69289 8.20452C9.1576 8.64269 8.94814 9.25126 8.94814 9.98155C8.94814 11.6855 8.94814 13.3895 8.94814 15.0935C8.94814 15.3126 8.92486 15.5317 8.94814 15.7751C8.97141 15.9699 8.87832 16.0186 8.7154 15.9942C7.71464 15.9942 6.73716 15.9942 5.7364 15.9942C5.55021 15.9942 5.50366 15.9455 5.50366 15.7508C5.52694 14.2172 5.52694 12.6836 5.52694 11.1257C5.52694 9.22692 5.52694 7.32818 5.50366 5.45379C5.50366 5.2347 5.55021 5.18602 5.7364 5.18602C6.73716 5.18602 7.71464 5.18602 8.7154 5.18602C8.90159 5.18602 8.94814 5.2347 8.94814 5.42944C8.94814 5.81893 8.94814 6.20841 8.94814 6.67093C9.01796 6.5979 9.04123 6.57356 9.0645 6.54921C9.97217 5.16167 11.2522 4.77219 12.765 5.01562C14.5105 5.30773 15.6276 6.57356 15.9069 8.52098C15.9767 8.98349 16 9.446 16 9.90852C16 11.8559 16 13.779 16 15.7264C16 15.9212 15.9535 15.9942 15.744 15.9942Z" fill=""/>
+                        <path d="M3.64178 10.5899C3.64178 12.2939 3.64178 13.9979 3.64178 15.7019C3.64178 15.921 3.59523 15.994 3.38577 15.994C2.40828 15.9697 1.4308 15.994 0.45331 15.994C0.267122 15.994 0.220575 15.9454 0.220575 15.7506C0.220575 12.3183 0.220575 8.8616 0.220575 5.42927C0.220575 5.25887 0.267122 5.18584 0.45331 5.18584C1.45407 5.18584 2.45483 5.18584 3.45559 5.18584C3.66505 5.18584 3.68832 5.25887 3.68832 5.45361C3.64178 7.15761 3.64178 8.8616 3.64178 10.5899Z" fill=""/>
+                        <path d="M3.80469 2.36222C3.57196 3.33593 2.61775 3.89581 1.52389 3.70107C0.36022 3.50633 -0.291437 2.31353 0.127485 1.14508C0.406767 0.414792 1.0817 -0.0233788 1.94282 0.000964028C3.24613 -0.0233788 4.10725 1.07205 3.80469 2.36222Z" fill=""/>
+                      </svg>
+                    </a>
+                    <a href="#" class="contacts__socials btn">
+                      <svg class="contacts__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.33397 8C5.33397 6.5273 6.52756 5.33312 8.00032 5.33312C9.47308 5.33312 10.6673 6.5273 10.6673 8C10.6673 9.4727 9.47308 10.6669 8.00032 10.6669C6.52756 10.6669 5.33397 9.4727 5.33397 8ZM3.89225 8C3.89225 10.2688 5.73143 12.1079 8.00032 12.1079C10.2692 12.1079 12.1084 10.2688 12.1084 8C12.1084 5.7312 10.2692 3.8921 8.00032 3.8921C5.73143 3.8921 3.89225 5.7312 3.89225 8ZM11.311 3.72922C11.3109 3.91909 11.3671 4.10471 11.4726 4.26263C11.578 4.42054 11.7279 4.54365 11.9033 4.61638C12.0787 4.68911 12.2717 4.7082 12.4579 4.67123C12.6442 4.63426 12.8153 4.5429 12.9496 4.40869C13.0839 4.27449 13.1754 4.10347 13.2125 3.91726C13.2497 3.73106 13.2307 3.53802 13.1581 3.36258C13.0855 3.18713 12.9625 3.03715 12.8047 2.9316C12.6469 2.82605 12.4613 2.76968 12.2714 2.7696H12.271C12.0165 2.76972 11.7724 2.87085 11.5924 3.05077C11.4124 3.2307 11.3112 3.47471 11.311 3.72922ZM4.76819 14.5118C3.98819 14.4763 3.56424 14.3464 3.2825 14.2366C2.90898 14.0912 2.64247 13.918 2.36227 13.6382C2.08207 13.3584 1.90862 13.0922 1.76385 12.7187C1.65402 12.4371 1.52409 12.013 1.48864 11.233C1.44985 10.3898 1.44211 10.1364 1.44211 8.00006C1.44211 5.86368 1.45049 5.61107 1.48864 4.7671C1.52416 3.98714 1.65504 3.5639 1.76385 3.28147C1.90926 2.90797 2.08245 2.64147 2.36227 2.36128C2.64209 2.08109 2.90834 1.90765 3.2825 1.76288C3.56411 1.65306 3.98819 1.52314 4.76819 1.48768C5.61149 1.4489 5.86481 1.44115 8.00032 1.44115C10.1358 1.44115 10.3894 1.44954 11.2334 1.48768C12.0134 1.5232 12.4367 1.65408 12.7191 1.76288C13.0926 1.90765 13.3591 2.08147 13.6393 2.36128C13.9195 2.64109 14.0923 2.90797 14.2378 3.28147C14.3476 3.56307 14.4775 3.98714 14.513 4.7671C14.5518 5.61107 14.5595 5.86368 14.5595 8.00006C14.5595 10.1364 14.5518 10.3891 14.513 11.233C14.4774 12.013 14.3469 12.4369 14.2378 12.7187C14.0923 13.0922 13.9192 13.3587 13.6393 13.6382C13.3595 13.9178 13.0926 14.0912 12.7191 14.2366C12.4375 14.3464 12.0134 14.4764 11.2334 14.5118C10.3901 14.5506 10.1368 14.5583 8.00032 14.5583C5.86385 14.5583 5.61123 14.5506 4.76819 14.5118ZM4.70195 0.048448C3.85027 0.087232 3.26829 0.222272 2.76005 0.420032C2.23369 0.624256 1.7881 0.89824 1.34284 1.34278C0.897572 1.78733 0.624281 2.2336 0.420049 2.75994C0.222281 3.26848 0.0872355 3.85011 0.0484499 4.70176C0.00902436 5.55475 0 5.82746 0 8C0 10.1725 0.00902436 10.4452 0.0484499 11.2982C0.0872355 12.15 0.222281 12.7315 0.420049 13.2401C0.624281 13.7661 0.897636 14.2129 1.34284 14.6572C1.78804 15.1016 2.23369 15.3752 2.76005 15.58C3.26925 15.7777 3.85027 15.9128 4.70195 15.9516C5.55542 15.9903 5.82769 16 8.00032 16C10.173 16 10.4457 15.991 11.2987 15.9516C12.1504 15.9128 12.732 15.7777 13.2406 15.58C13.7666 15.3752 14.2125 15.1018 14.6578 14.6572C15.1031 14.2127 15.3758 13.7661 15.5806 13.2401C15.7784 12.7315 15.914 12.1499 15.9522 11.2982C15.991 10.4446 16 10.1725 16 8C16 5.82746 15.991 5.55475 15.9522 4.70176C15.9134 3.85005 15.7784 3.26816 15.5806 2.75994C15.3758 2.23392 15.1024 1.78803 14.6578 1.34278C14.2132 0.897536 13.7666 0.624256 13.2412 0.420032C12.732 0.222272 12.1504 0.086592 11.2993 0.048448C10.4463 0.009664 10.1736 0 8.00096 0C5.82833 0 5.55542 0.009024 4.70195 0.048448Z" fill=""/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="privacy">
+  <div class="container">
+    <div class="privacy__block">
+      <div class="vacancies__block-back privacy__block-back">
+        <a href="index.html" class="vacancies__link-back btn"><img src="img/arrow-back.svg" alt="Arrow">Back to home page</a>
+      </div>
+      <div class="privacy__block-info">
+        <h3 class="privacy__info-title">Website Terms and Conditions of Use</h3>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Website administrator</h5>
+          <p class="privacy__info-descr">
+            The rivo.agency website’s («Website») owner and administrator is Rivo Agency, a company incorporated under the laws of the Ukraine, with its registered office in Rivne, st. Melnica 1, entered into the register of entrepreneurs of the Ukrainian National Court Register maintained by the District Court for Rivne.
+          </p>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Terms and Conditions of Use</h5>
+          <p class="privacy__info-descr">
+            By accessing this Website, you agree to be bound by these Website Terms and Conditions of Use («T&C»), all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this Website. The materials contained in this Website are protected by applicable copyright and trade mark law.
+            You may use the Website only for lawful purposes. It is forbidden to use the Website: in any way which may lead to a violation of applicable law; in any manner that is unlawful or dishonest, or in a manner that seeks to achieve an unlawful or unfair purpose; to send, knowingly receive, upload, use or reuse content that does not comply with the T&C; to forward or provoke the shipment of any unsolicited or unauthorized advertising or promotional materials, as well as any similar forms belonging to the collective category of «spam»; to knowingly transfer any data, send or upload any material containing viruses, trojans, spyware, adware or other malicious software or similar computer codes programmed to adversely affect or threaten the functioning of any software, network or computer equipment. It is forbidden to attempt to gain unauthorized access to the server on which the Website is stored, computer or database related to the Website, as well as any unauthorised access aimed at or resulting in damage or disruption of any part of the Website, equipment or network where the Website is stored, any software used to operate the Website or any equipment, networks or software owned by or used by third parties.
+          </p>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Use License</h5>
+          <p class="privacy__info-descr privacy__info-descr--bot">
+            Rivo Agency grants permission to temporarily download one copy of the materials on the Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+          </p>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item">
+              <p class="privacy__text">Modify or copy the materials;</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">attempt to decompile or reverse engineer any software contained on the Website;</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">remove any copuright or other proprietary notations from the materials; or</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">transfer the materials to another entity or «mirror» the materials on any other server</p>
+            </li>
+          </ul>
+          <p class="privacy__info-descr">
+            This license shall automatically terminate if you violate any of these restrictions and may be terminated by Netguru at any time.
+            Upon termination, your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
+          </p>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Disclaimer</h5>
+          <p class="privacy__info-descr">
+            Rivo Agency makes no warranties and representations, expressed or implied, to the digital availability, functionality, compatibility, visibility and/or comprehensibility of the Website.
+            Rivo Agency makes no guarantee that the Website or any of its contents will always be available or access will not be impeded.
+            Rivo Agency holds no liability for any temporary or permanent unavailability or inaccessibility of the Website, in whole or in any part, for any reason and at any time.
+            The materials on Website are provided «as is».
+            Rivo Agency makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+            Rivo Agency does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on the Website or otherwise relating to such materials or on any sites linked to this site.<br>
+            Any information or statements included on the Website shall not constitute a binding offer and cannot be construed as such.
+          </p>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Limitations</h5>
+          <p class="privacy__info-descr">
+            In no event shall Rivo Agency or its suppliers be liable for any damages (including, without limitation, damages for loss of data, profit, anticipated savings, violation of business continuity, loss of reputation, claims of third parties, damage caused by delay or moral damage) arising out of the use or inability to use the materials on the Website,.
+            In particular, Rivo Agency is not liable for damages caused by viruses and other software, and/or that results from accessing or downloading materials that the Website contains. If you decide to download materials from the Website, you do so at your own risk.<br>
+            Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
+          </p>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Revision & Errata</h5>
+          <p class="privacy__info-descr">
+            The materials appearing on the Website could include technical, typographical, or photographic errors.
+            Rivo Agency does not warrant that any of the materials on the Website are accurate, complete, or up-to-date.
+            Rivo Agency is entitled to suspend, withdraw, cease operation or modify all or some elements of the Website at any time without notice.
+            Rivo Agency does not, however, make any commitment to update the materials.
+          </p>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Links</h5>
+          <p class="privacy__info-descr">
+            The Website may contain third party materials or links to other websites.
+            Links to other websites are provided on the Website for your information and convenience only.
+            Rivo Agency has no control over these websites, does not check, oversee, review, approve or endorse its contents.
+            Rivo Agency is not responsible for the availability of these websites, their contents nor for any damage or harm that might be inflicted as a result of accessing those websites. .
+            Use of any such linked website is at the user’s own risk.
+          </p>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Modification</h5>
+          <p class="privacy__info-descr">
+            Rivo Agency may revise, modify or amend the T&C at any time without notice.
+            By using this Website you agree to be bound by the current version of the T&C.
+          </p>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Breach, Governing Law</h5>
+          <p class="privacy__info-descr">
+            If Rivo Agency becomes aware of a breach of the T&C, Rivo Agency may immediately implement corrective actions, including disabling access to the Website as well as removing any information, data and content provided by the user on the Website at any time, to any extent and without notice.<br>
+            Any claims or disputed relating to the use of Website or a breach of this T&C shall be governed by the laws of the Ukraine without regard to its conflict of law provisions.
+            Any claims and disputes shall be settled by the competent Ukrainian common court, having jurisdiction over Rivo Agency registered seat.
+          </p>
+        </div>
+      </div>
+      <div class="privacy__block-policy">
+        <h3 class="privacy__info-title privacy__info-title--policy">Privacy Policy</h3>
+        <div class="privacy__info-block">
+          <p class="privacy__info-descr privacy__info-descr--bot">
+            The privacy of our website’s users is very important to us, which is why we have developed this Privacy Policy so that you can understand how we collect, process, disclose, and use your personal information.
+            <br>
+            <br>
+            Rivo Agency. as the Data Controller of the service and personal data ensures that:
+          </p>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text privacy__text-lh">Data shall always be collected for specified and clearly defined purposes and to the extent necessary to achieve those purposes.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text privacy__text-lh">Personal data shall be kept for as long as necessary to achieve these purposes.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text privacy__text-lh">Personal data shall be collected lawfully and fairly at all times, where appropriate, with the knowledge or consent of the data subject.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text privacy__text-lh">Personal data is protected with reasonable safeguards against loss or theft, as well as against unauthorized access, disclosure, copying, use or modification.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text privacy__text-lh">Its clients are provided with information about the rules and practices relating to personal data management.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Article 1. Privacy and Processing Information</h5>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text privacy__text-lh">
+                The Data Controller of personal data is Rivo Agency. with its registered office in Rivne, 1 Melnica Street.
+              </p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">
+                Rivo Agency as a personal data Controller (hereinafter referred to as «Controller») pays great attention to the protection of privacy and confidentiality of personal data of Users who make their data available in electronic form through forms available on the website in the domain rivo.agency (hereinafter referred to as «rivo.agency»), the rules of which are specified in the Terms of Use (hereinafter referred to as «Terms of Use») or by registering to meetups and forums organized by Rivo Agency.
+              </p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">The Data Protection Officer of Rivo Agency is Nikolas Lishchenko who can be contacted via e-mail: <a href="#" class="btn privacy__link-mail">nik@rivo.agency</a></p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">The Controller shall, with due diligence, select and apply appropriate technical and organizational measures to protect personal data being processed. Full access to databases is granted only to persons authorized by the Controller.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">The Controller protects personal data against unauthorized access and processing in violation of applicable regulations.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">Visitors to netguru.com can browse through subpages of the website without providing personal data.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Article 2. Grounds for processing personal data</h5>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text privacy__text-lh">
+                1. Personal data shall be processed by the Controller in accordance with the law, in particular Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (hereinafter referred to as 'GDPR').
+              </p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">
+                Personal data are processed to:<br>
+                <span>a.</span> answer questions addressed to the Controller through the contact forms available on netguru.com website, including interactive windows available on each subpage of the website (according to article 6.1.f of the GDPR);<br>
+                <span>b.</span> dispatch of marketing content, including information about planned events and workshops, business information, newsletter or dispatch of eBooks and other information on the basis of the consent (Article 6(1) (a) of the GDPR);<br>
+                <span>c.</span> recruitment, including:<br>
+                — to establish and maintain contact with the Candidate in relation to the application documents submitted, pursuant to Article 6(1) (b) of the GDPR, i.e. in relation to taking action at the request of the data subject before concluding a contract,
+                — carrying out and resolving the recruitment process based on Article 6(1) (b) of the GDPR, i.e. taking the necessary actions at the request of the data subject before concluding the contract — in the scope of data indicated in Article 221 § 1 of the Labor Code and on the basis of the Candidate’s consent, i.e. Article 6(1) (a) of the GDPR and in the scope of data beyond the catalog indicated in Article 221 § 1 of the Labor Code,
+                — to take account of the Candidate’s application documents in future recruitment processes on the basis of his/her voluntary agreement (Article 6(1) (a) of the GDPR).<br>
+                <span>d.</span> establishing contact in order to prepare, at the Customer’s request, an offer of the Controller’s services and/or products tailored to the Customer’s needs (Art. 6.1.b of the GDPR),<br>
+                <span>e.</span> adapting and developing the website’s functionalities, including its structure and content to the needs of Internet users, creating aggregated statistics, and preserving the security and quality of services provided by the service — based on the legitimate interest of the Controller (Article 6(1) (f) of the GDPR);<br>
+                <span>f.</span> investigation or safeguard against possible claims (according to Article 6(1) (f) of the GDPR);<br>
+                <span>g.</span> conducting statistical analysis of information about participants of our events (according to Article 6 (1) (f) of the GDPR) where the legitimate purpose is to have information about the statistics which allows us to improve our activities.
+              </p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text"> Regardless of the purpose of the processing, providing the data is voluntary, however, failure to do so may prevent, depending on the specific case, the conclusion of a contract, use of selected services within the service and its functionality or receipt of marketing content.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">The User should not provide the Controller with personal data of third parties. In case of transfer of third parties' data, the User is obliged to sign a declaration that s/he has the consent of third parties to transfer the data to the Controller.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Article 3. Scope of processing of personal data</h5>
+          <p class="privacy__info-descr privacy__info-descr--bot">
+            The Controller processes personal data only to the extent necessary to achieve a strictly defined purpose, in accordance with the information indicated below:
+          </p>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item">
+              <p class="privacy__text">Sending a message through the contact form, among others: e-mail address and telephone number and all other information that the User will provide of his/her own free will in the addressed message;</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">Sending newsletters, commercial and business information and e-books: name and surname, e-mail address, telephone number, among others;</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">Recruitment: the e-mail address from which the message was sent and the information contained in the application form;</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">Preparation of offers: name and surname, e-mail address, telephone number, and other information contained in the message sent through the contact form;</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">Customization and development of website functionality: IP addresses collected during Internet connections for technical purposes related to server administration.</p>
+            </li>
+          </ul>
+          <p class="privacy__info-descr">
+            The Controller does not make automated decisions on the basis of data collected about Users.
+          </p>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Article 4. Data retention period</h5>
+          <p class="privacy__info-descr privacy__info-descr--bot">
+            Personal data shall be kept only for the time necessary to achieve the specific purpose for which it was transmitted or to ensure compliance, as set out below:
+          </p>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item">
+              <p class="privacy__text">Personal data collected for the purpose of answering questions asked via the contact form will be processed no longer than 12 months after the last contact;</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">Data collected for the purpose of sending marketing content, newsletters,<br> commercial and business information and e-books will be processed until the withdrawal of consent by the User;</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">Personal data collected for the purposes of recruitment will be processed for the duration of the recruitment process, and if the Candidate agrees to leave the data for the purposes of future recruitments, they will be stored until the withdrawal of the consent, but not longer than 24 months from the date of its granting;</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">Personal data collected for the purposes of preparing a personalized offer for products and/or services will be processed for the duration of the offer negotiation, and after its completion for 12 months counted from the date of the last contact, or they will feed the Controller’s customer database in order to execute the concluded agreement.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Article 5. Recipients of personal data</h5>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item">
+              <p class="privacy__text">Users' data may be made available to entities authorized to receive data in accordance with applicable laws, including relevant judicial authorities.</p>
+            </li>
+            <li class="privacy__item">
+              <p class="privacy__text">Personal data may be transferred to entities cooperating with the Controller on the basis of appropriate agreements, including selected marketing agencies and partners providing technical services (development and maintenance of IT systems and websites).</p>
+            </li>
+          </ul>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Article 6. Rights of persons</h5>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">
+                The user is obliged to provide complete, current and up-to-date data.
+              </p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">
+                Every user whose personal data is processed by the Controller is entitled to:<br>
+                <span>a.</span> access the data,<br>
+                <span>b.</span> correct the data,<br>
+                <span>c.</span> deletion of the data,<br>
+                <span>d.</span> restrict the processing of data,<br>
+                <span>e.</span> transfer the data,<br>
+                <span>f.</span> object to the processing of data which takes place on the basis of the Conotroller’s legitimate interest,<br>
+                <span>g.</span> withdraw consent (where processing is based on consent) at any time without affecting the lawfulness of processing carried out on the basis of consent before withdrawal.
+              </p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text"> You can exercise the rights set out in the above section by sending an appropriate request, providing your user name and e-mail address to <a href="#" class="privacy__link-mail btn">info@rivo.agency</a></p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">The user has the right to appeal to the supervisory authority if he considers that the processing of personal data violates the rules of the GDPR.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text"> In order to unsubscribe from the communication, please select «Unsubscribe» button on the bottom of the e-mail you received from us, update email preferences in the second step by unchecking the types of email you do not want to receive and accept the settings.
+                You can also contact us via dpo@netguru.com e-mail.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Article 7. Cookie policy</h5>
+          <p class="privacy__info-descr privacy__info-descr--bot">
+            Rivo Agency collects data in logs, which are used only for the purposes of service administration, and these data are not transferred to third parties.
+          </p>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">
+                In accordance with established practice, we store HTTP queries addressed to our server. The resources viewed are identified by their URLs. The information collected in the logs is:<br>
+                <span>-</span> The public IP address of the computer from which the query came,<br>
+                <span>-</span> User station name — identification implemented by http protocol, if possible,<br>
+                <span>-</span> User name given during the authorization process,<br>
+                <span>-</span> Time for the inquiry to arrive,<br>
+                <span>-</span> First line of the http request,<br>
+                <span>-</span> The http response code,<br>
+                <span>-</span> The number of bytes sent by the server,<br>
+                <span>-</span> The URL of the page previously visited by the user, in case the Company’s website was accessed via a link,<br>
+                <span>-</span> Information about your browser,<br>
+                <span>-</span> Information about errors that occurred in the execution of http transactions.
+              </p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text"> This data is not connected to specific people browsing the Controller’s pages.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text"> In order to ensure the highest quality of service, the Controller periodically analyses log files in order to determine which pages are visited most often, which web browsers are used, whether the structure of the site does not contain errors, etc.<br>
+                The collected logs are stored for 24 months as auxiliary material used to administer the service — on the basis of cookie files, statistics may be generated which do not contain any features identifying the persons visiting netguru.com.</p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">
+                The following types of cookies are used on the website:<br>
+                <span>a.</span> security cookies, e.g. used to detect misuse of authentication;<br>
+                <span>b.</span> «performance» cookies, enabling the collection of information on how to use the website;<br>
+                <span>c.</span> «functional» cookies, enabling «remembering» the settings selected by the User and personalizing the User’s interface, e.g. in terms of the selected language or region from which the User comes from, font size, appearance of the website, etc.
+              </p>
+            </li>
+            <li class="privacy__item privacy__item-lh">
+              <p class="privacy__text">Cookies are not used to process or store personal data. They cannot be used to directly identify the User and do not make any configuration changes in the browser or telecommunication devices.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="privacy__info-block">
+          <h5 class="privacy__info-subtitle">Article 8. Transfer of data to third countries</h5>
+          <p class="privacy__info-descr privacy__info-descr--bot">
+            Outside the European Economic Area (EEA), the level of personal data protection differs from that provided by European law (GDPR).
+            Netguru transfers your personal data outside the EEA to third countries only if it is necessary to achieve business purposes (incl.
+            the use of IT tools provided by third country entities) and when the third country ensures an adequate level of protection, in particular through:
+          </p>
+          <ul class="privacy__list privacy__list-bot list-reset">
+            <li class="privacy__item privacy__item-lh privacy__item-none">
+              <p class="privacy__text">
+                <span>a.</span> issued a relevant decision of the European Commission regarding the assurance of an adequate level of protection of Personal Data in that country,<br>
+                <span>b.</span> the use of standard contractual clauses issued by the European Commission, if a given country does not have a confirmed decision of the European Commission,<br>
+                <span>c.</span> application of binding corporate rules approved by the competent supervisory authority.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer__block">
+      <ul class="list-reset footer__list">
+        <li class="footer__item">
+          <a href="index.html" class="btn footer__link">Home</a>
+        </li>
+        <li class="footer__item">
+          <a href="error.html" class="btn footer__link">Who we are</a>
+        </li>
+        <li class="footer__item">
+          <a href="error.html" class="btn footer__link">Services</a>
+        </li>
+        <li class="footer__item">
+          <a href="error.html" class="btn footer__link">Indusrty Expertise</a>
+        </li>
+        <li class="footer__item">
+          <a href="error.html" class="btn footer__link">Our Stack</a>
+        </li>
+        <li class="footer__item">
+          <a href="error.html" class="btn footer__link">Projects</a>
+        </li>
+        <li class="footer__item">
+          <a href="error.html" class="btn footer__link">Reviews</a>
+        </li>
+        <li class="footer__item">
+          <a href="error.html" class="btn footer__link">Contacts</a>
+        </li>
+        <li class="footer__item">
+          <a href="error.html" class="btn footer__link">Career</a>
+        </li>
+        <li class="footer__item">
+          <a href="error.html" class="btn footer__link">Blog</a>
+        </li>
+      </ul>
+      <div class="footer__block-copy">
+        <small class="footer__copy footer__bot">2020 © Rivo Agency</small>
+        <a href="privacy.html" class="footer__privacy btn footer__bot">Privacy Policy & Term of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="cookie__notice">
+      <div class="cookie__block-name">
+        <h4 class="cookie__title">Cookies & Privacy</h4>
+        <p class="cookie__subtitle">This website uses cookies to ensure you get the best experience on our website.</p>
+      </div>
+      <div class="cookie__block-btn">
+        <a class="cookie__btn-info btn" href="#politika">More information</a>
+        <a class="cookie__btn-accept btn" id="cookie_close" href="#close">Accept</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
